@@ -33,11 +33,9 @@ const Layout = ({ children }) => {
           padding: `0 1.0875rem 1.45rem`,
         }}
       >
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <main style={{margin: `3rem auto`, maxWidth: 600}}>{children}</main>
+        <footer style={{textAlign: 'center'}}>
+          © Ashly Lau {new Date().getFullYear()}
         </footer>
       </div>
     </>
