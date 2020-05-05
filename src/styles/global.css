@@ -27,7 +27,22 @@ nav a:hover {
     background-color: #FFDA66;
 }
 
-h2 {
+.my-h1 {
     font-family: 'Lato';
-    font-size: 2rem;
+    font-size: 30px;
+}
+
+.my-h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 14px;
+}
+
+.my-body {
+    font-family: 'Lato';
+    font-size: 12px;
+}
+
+.my-tag {
+    font-family: 'Lato';
+    font-size: 9px;
 }

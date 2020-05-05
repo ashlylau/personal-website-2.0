@@ -1,0 +1,17 @@
+.container {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.container p {
+    margin-bottom: 3px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 1rem;
+    align-items: center;
+    display: grid;
+}

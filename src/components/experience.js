@@ -1,21 +1,53 @@
 import React from "react"
 import {Row, Col, Container } from 'react-bootstrap'
+import style from "../styles/experience.module.css"
+import googleLogo from "../images/logos/googlelogo.png"
+import imperialLogo from "../images/logos/imperial.jpg"
+import hpLogo from "../images/logos/hplogo.png"
 
-class ExperienceSection extends React.Component {
-    render() {
-        return (
-            <div>
-            <h2>EXPERIENCE</h2>
-            <Container>
-                <Row>
-                    <Col>1 of 3</Col>
-                    <Col>2 of 3</Col>
-                    <Col>3 of 3</Col>
-                </Row>
-            </Container>
-        </div>
-        );
+const experienceInfo = [
+    {
+        image: googleLogo,
+        title: 'STEP Intern',
+        company: 'Google',
+        date: 'JUL 2019 - SEP 2019'
+    },
+    {
+        image: imperialLogo,
+        title: 'Teaching Assistant',
+        company: 'Imperial College',
+        date: 'OCT 2019 - MAR 2020'
+    },
+    {
+        image: hpLogo,
+        title: 'Software R&D Intern',
+        company: 'HP Inc.',
+        date: 'JUL 2018 - SEP 2018'
     }
+]
+
+export default function ExperienceSection() {
+    return (
+        <div>
+        <h1 className='my-h1' style={{color: '#92BAAA'}}>EXPERIENCE</h1>
+        <Container>
+            <Row>
+            {experienceInfo.map((item) => <LogoItem props={item}/>)}
+            </Row>
+        </Container>
+    </div>
+    );
 }
 
-export default ExperienceSection
+const LogoItem = ({props}) => (
+    <Col sm={4}>
+        <img className={style.logo}
+        src={props.image}
+        alt={props.title}/>
+        <div className={style.container}>
+            <p className='my-h2'>{props.title}</p>
+            <p className='my-body'>{props.company}</p>
+            <p className='my-tag'>{props.date}</p>
+        </div>
+    </Col>
+);
