@@ -1,0 +1,15 @@
+nav a {
+    color: #65CAE2;
+    font-family: 'Libre Baskerville', serif;
+}
+
+nav a:hover {
+    color: #65CAE2;
+    background-color: #FFDA66;
+    font-family: 'Libre Baskerville', serif;
+}
+
+h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 18;
+}
