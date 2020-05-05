@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "../styles/global.css"
 
 const Layout = ({ children }) => {
@@ -33,7 +34,7 @@ const Layout = ({ children }) => {
           padding: `0 1.0875rem 1.45rem`,
         }}
       >
-        <main style={{margin: `3rem auto`, maxWidth: 600}}>{children}</main>
+        <main style={{margin: `3rem auto`, marginTop: `5rem`, maxWidth: 1000}}>{children}</main>
         <footer style={{textAlign: 'center'}}>
           © Ashly Lau {new Date().getFullYear()}
         </footer>

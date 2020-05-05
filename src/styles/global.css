@@ -7,6 +7,15 @@ nav a:hover {
     color: #65CAE2;
     background-color: #FFDA66;
     font-family: 'Libre Baskerville', serif;
+    text-decoration: none;
+}
+
+.hero {
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 6rem;
+    width: 50%;
+    min-width: 350px;
 }
 
 .hero p {
@@ -16,4 +25,9 @@ nav a:hover {
 
 .hero p span {
     background-color: #FFDA66;
+}
+
+h2 {
+    font-family: 'Lato';
+    font-size: 2rem;
 }
