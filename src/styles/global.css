@@ -9,7 +9,11 @@ nav a:hover {
     font-family: 'Libre Baskerville', serif;
 }
 
-h2 {
+.hero p {
     font-family: 'Libre Baskerville', serif;
-    font-size: 18;
+    font-size: 1rem;
+}
+
+.hero p span {
+    background-color: #FFDA66;
 }
