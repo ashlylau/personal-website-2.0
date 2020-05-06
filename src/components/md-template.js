@@ -12,11 +12,11 @@ export default function Template({ data }) {
   
   return (
     <Layout>
-    <SEO title="cinect" />
+    <SEO title={frontmatter.title} />
     <div className={style.container}>
         <div className="blog-post">
             <p className='my-h1'>{frontmatter.title}</p>
-            <Img fluid={featuredImgFluid}/>
+            <Img className={style.mainImage} fluid={featuredImgFluid}/>
 
             <div className={style.subtitle}>
             <p className='my-h2'>{frontmatter.desc}</p>

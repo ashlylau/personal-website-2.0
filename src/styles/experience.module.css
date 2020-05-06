@@ -7,11 +7,20 @@
     margin-bottom: 3px;
 }
 
+.imageContainer {
+    margin-top: 1rem;
+    overflow: hidden;
+}
+
 .logo {
     width: 100px;
     height: 100px;
     margin: auto;
-    margin-top: 1rem;
     align-items: center;
     display: grid;
+    transition: 500ms;
+}
+
+.logo:hover {
+    transform: scale(1.05);
 }

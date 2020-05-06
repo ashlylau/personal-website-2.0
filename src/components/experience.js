@@ -48,9 +48,11 @@ export default function ExperienceSection() {
 const LogoItem = ({props}) => (
     <Col sm={4}>
         <Link className='my-link' to={props.path}>
-            <img className={style.logo}
-            src={props.image}
-            alt={props.title}/>
+            <div className={style.imageContainer}>
+                <img className={style.logo}
+                src={props.image}
+                alt={props.title}/>
+            </div>
             <div className={style.container}>
                 <p className='my-h2'>{props.title}</p>
                 <p className='my-body'>{props.company}</p>

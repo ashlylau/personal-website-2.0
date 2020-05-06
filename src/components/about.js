@@ -47,9 +47,11 @@ export default function AboutSection() {
 const AboutItem = ({props}) => (
     <Col sm={4} >
         <Link className='my-link' to={props.path}>
-            <img className={style.about}
-            src={props.image}
-            alt={props.title}/>
+            <div className={style.imageContainer}>
+                <img className={style.about}
+                src={props.image}
+                alt={props.title}/>
+            </div>
             <div className={style.container}>
                 <p className='my-h2'>{props.title}</p>
                 <p className='my-body'>{props.desc}</p>

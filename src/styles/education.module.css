@@ -8,11 +8,21 @@
     margin-bottom: 3px;
 }
 
+.imageContainer {
+    margin-top: 1rem;
+    overflow: hidden;
+    padding: 3px;
+}
+
 .logo {
     width: auto;
     height: 100px;
     margin: auto;
-    margin-top: 1rem;
+    transition: 500ms;
+}
+
+.logo:hover {
+    transform: scale(1.05);
 }
 
 @media screen and (max-width: 600px) {

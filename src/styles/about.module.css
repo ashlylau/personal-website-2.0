@@ -7,16 +7,25 @@
     margin-bottom: 0px;
 }
 
+.imageContainer {
+    margin-top: 1rem;
+    margin-bottom: 4px;
+    overflow: hidden;
+}
+
 .about {
     width: 100%;
     height: 15vw;
     max-width: 300px;
     object-fit: cover;
     margin: auto;
-    margin-top: 1rem;
-    margin-bottom: 4px;
     align-items: center;
     display: grid;
+    transition: 500ms;
+}
+
+.about:hover {
+    transform: scale(1.1);
 }
 
 @media screen and (max-width: 600px) {

@@ -24,7 +24,7 @@ const projectInfo = [
     },
     {
         image: stitchcall,
-        title: 'Stitch-Call',
+        title: 'Stitch Call',
         path: '/projects/stitch-call',
         desc: 'A non-conventional video call platform',
     }
@@ -46,13 +46,15 @@ export default function ProjectsSection() {
 const ProjectItem = ({props}) => (
     <Col sm={4}>
         <Link className='my-link' to={props.path}>
-        <img className={style.project}
-        src={props.image}
-        alt={props.title}/>
-        <div className={style.container}>
-            <p className='my-h2'>{props.title}</p>
-            <p className='my-body'>{props.desc}</p>
-        </div>
+            <div className={style.imageContainer}>
+                <img className={style.project}
+                src={props.image}
+                alt={props.title}/>
+            </div>
+            <div className={style.container}>
+                <p className='my-h2'>{props.title}</p>
+                <p className='my-body'>{props.desc}</p>
+            </div>
         </Link>
     </Col>
 );

@@ -42,9 +42,9 @@ const EducationItem = ({props}) => (
     <Col sm={6}>
         <Link className='my-link' to={props.path}>
             <Media style={{marginLeft: `3rem`, marginRight: `3rem`}}>
-                <img className={style.logo}
+                <div className={style.imageContainer}><img className={style.logo}
                 src={props.image}
-                alt={props.title}/>
+                alt={props.title}/></div>
                 <Media.Body className={style.container}>
                     <p className='my-h2'>{props.title}</p>
                     <p className='my-body'>{props.course}</p>
