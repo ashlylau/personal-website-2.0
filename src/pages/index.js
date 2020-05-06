@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import HeroComponent from "../components/hero"
 import ExperienceSection from "../components/experience"
+import ProjectsSection from "../components/projects"
 
 const IndexPage = () => (
   <Layout>
@@ -15,6 +16,7 @@ const IndexPage = () => (
     </div>
 
     <ExperienceSection/>
+    <ProjectsSection />
   </Layout>
 )
 
