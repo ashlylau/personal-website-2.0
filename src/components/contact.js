@@ -17,10 +17,10 @@ export default function ContactSection() {
                     alt='hey im ashly'/>
                     <Media.Body className={style.container}>
                         <p className='my-h3' style={{color: '#FFDA66'}}>Let's work together!</p>
-                        <p className='my-h2'>EMAIL</p>
-                        <p className='my-h2'>LINKEDIN</p>
-                        <p className='my-h2'>GITHUB</p>
-                        <p className='my-h2'>RESUME</p>
+                        <p className='my-h2'><a className='my-link' href='mailto: ashlylau@gmail.com'>EMAIL</a></p>
+                        <p className='my-h2'><a className='my-link' href='https://www.linkedin.com/in/ashly-lau/'>LINKEDIN</a></p>
+                        <p className='my-h2'><a className='my-link' href='https://github.com/ashlylau'>GITHUB</a></p>
+                        <p className='my-h2'><a className='my-link' href="/components/AshlyResume.pdf" download="AshlyLauResume.pdf">RESUME</a></p>
                     </Media.Body>
                 </Media>
             </Container>

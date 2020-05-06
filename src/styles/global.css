@@ -51,3 +51,12 @@ nav a:hover {
     font-family: 'Lato';
     font-size: 9px;
 }
+
+.my-link {
+    color: black;
+}
+
+.my-link:hover {
+    color: #65CAE2;
+    text-decoration: none;
+}

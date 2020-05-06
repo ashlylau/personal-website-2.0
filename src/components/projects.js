@@ -2,6 +2,7 @@ import React from "react"
 import {Row, Col, Container } from 'react-bootstrap'
 import style from "../styles/projects.module.css"
 import SectionHeader from "./section-header"
+import { Link } from "gatsby"
 
 import cinect from "../images/projects/cinect.png"
 import charje from "../images/projects/charje.png"
@@ -12,16 +13,19 @@ const projectInfo = [
     {
         image: cinect,
         title: 'Cinect',
+        path: '/projects/cinect',
         desc: 'React-native mobile app to help you choose movies with your friends',
     },
     {
         image: charje,
         title: 'CHARJE',
+        path: '/projects/charje',
         desc: 'An agent-based prediction marketplace implemented on a blockchain',
     },
     {
         image: stitchcall,
         title: 'Stitch-Call',
+        path: '/projects/stitch-call',
         desc: 'A non-conventional video call platform',
     }
 ]
@@ -41,6 +45,7 @@ export default function ProjectsSection() {
 
 const ProjectItem = ({props}) => (
     <Col sm={4}>
+        <Link className='my-link' to={props.path}>
         <img className={style.project}
         src={props.image}
         alt={props.title}/>
@@ -48,5 +53,6 @@ const ProjectItem = ({props}) => (
             <p className='my-h2'>{props.title}</p>
             <p className='my-body'>{props.desc}</p>
         </div>
+        </Link>
     </Col>
 );

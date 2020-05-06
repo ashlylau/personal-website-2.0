@@ -1,6 +1,7 @@
 import React from "react"
 import {Row, Col, Container, Media } from 'react-bootstrap'
 import style from "../styles/education.module.css"
+import { Link } from "gatsby"
 
 import icl from "../images/logos/iclcrest.png"
 import ri from "../images/logos/ri.png"
@@ -11,12 +12,14 @@ const educationInfo = [
     {
         image: icl,
         title: 'Imperial College London',
+        path: 'imperial',
         course: 'Computing (Artificial Intelligence)',
         date: '2017 - 2021'
     },
     {
         image: ri,
         title: 'Raffles Institution',
+        path: 'raffles',
         course: 'Cambridge-Singapore GCE-A Levels',
         date: '2015 - 2016'
     },
@@ -37,15 +40,17 @@ export default function EducationSection() {
 
 const EducationItem = ({props}) => (
     <Col sm={6}>
-        <Media style={{marginLeft: `3rem`, marginRight: `3rem`}}>
-            <img className={style.logo}
-            src={props.image}
-            alt={props.title}/>
-            <Media.Body className={style.container}>
-                <p className='my-h2'>{props.title}</p>
-                <p className='my-body'>{props.course}</p>
-                <p className='my-tag'>{props.date}</p>
-            </Media.Body>
-        </Media>
+        <Link className='my-link' to={props.path}>
+            <Media style={{marginLeft: `3rem`, marginRight: `3rem`}}>
+                <img className={style.logo}
+                src={props.image}
+                alt={props.title}/>
+                <Media.Body className={style.container}>
+                    <p className='my-h2'>{props.title}</p>
+                    <p className='my-body'>{props.course}</p>
+                    <p className='my-tag'>{props.date}</p>
+                </Media.Body>
+            </Media>
+        </Link>
     </Col>
 );

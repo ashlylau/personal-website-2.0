@@ -2,7 +2,7 @@ import React from "react"
 import {Row, Col, Container } from 'react-bootstrap'
 import style from "../styles/about.module.css"
 import SectionHeader from "./section-header"
-
+import { Link } from "gatsby"
 
 import gymnastics from "../images/about/ashly-getty.jpg"
 import movies from "../images/about/movies.jpg"
@@ -14,16 +14,19 @@ const aboutInfo = [
     {
         image: gymnastics,
         title: 'Gymnastics',
+        path: 'about/gymnastics',
         desc: 'Another life',
     },
     {
         image: movies,
         title: 'Movies',
-        desc: 'A form of escapism',
+        path: 'about/movies',
+        desc: 'I\'m a bit of a film buff',
     },
     {
         image: doodles,
         title: 'Doodles',
+        path: 'about/doodles',
         desc: 'I get bored easily',
     }
 ]
@@ -43,12 +46,14 @@ export default function AboutSection() {
 
 const AboutItem = ({props}) => (
     <Col sm={4} >
-        <img className={style.about}
-        src={props.image}
-        alt={props.title}/>
-        <div className={style.container}>
-            <p className='my-h2'>{props.title}</p>
-            <p className='my-body'>{props.desc}</p>
-        </div>
+        <Link className='my-link' to={props.path}>
+            <img className={style.about}
+            src={props.image}
+            alt={props.title}/>
+            <div className={style.container}>
+                <p className='my-h2'>{props.title}</p>
+                <p className='my-body'>{props.desc}</p>
+            </div>
+        </Link>
     </Col>
 );
