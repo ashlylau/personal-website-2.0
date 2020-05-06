@@ -1,6 +1,8 @@
 import React from "react"
 import {Row, Col, Container } from 'react-bootstrap'
 import style from "../styles/experience.module.css"
+import SectionHeader from "./section-header"
+
 import googleLogo from "../images/logos/googlelogo.png"
 import imperialLogo from "../images/logos/imperial.jpg"
 import hpLogo from "../images/logos/hplogo.png"
@@ -29,13 +31,13 @@ const experienceInfo = [
 export default function ExperienceSection() {
     return (
         <div>
-        <h1 className='my-h1' style={{color: '#92BAAA'}}>EXPERIENCE</h1>
-        <Container>
-            <Row>
-            {experienceInfo.map((item) => <LogoItem props={item}/>)}
-            </Row>
-        </Container>
-    </div>
+            <SectionHeader props={{title:'EXPERIENCE', color: '#92BAAA'}} />
+            <Container>
+                <Row>
+                {experienceInfo.map((item) => <LogoItem props={item}/>)}
+                </Row>
+            </Container>
+        </div>
     );
 }
 

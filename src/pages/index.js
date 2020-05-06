@@ -7,6 +7,7 @@ import ExperienceSection from "../components/experience"
 import ProjectsSection from "../components/projects"
 import EducationSection from "../components/education"
 import AboutSection from "../components/about"
+import ContactSection from "../components/contact"
 
 const IndexPage = () => (
   <Layout>
@@ -21,6 +22,7 @@ const IndexPage = () => (
     <ProjectsSection />
     <EducationSection />
     <AboutSection />
+    <ContactSection />
   </Layout>
 )
 

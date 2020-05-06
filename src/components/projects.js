@@ -1,6 +1,7 @@
 import React from "react"
 import {Row, Col, Container } from 'react-bootstrap'
 import style from "../styles/projects.module.css"
+import SectionHeader from "./section-header"
 
 import cinect from "../images/projects/cinect.png"
 import charje from "../images/projects/charje.png"
@@ -28,13 +29,13 @@ const projectInfo = [
 export default function ProjectsSection() {
     return (
         <div>
-        <h1 className='my-h1' style={{color: '#30838D', marginTop: `2rem`}}>PROJECTS</h1>
-        <Container>
-            <Row>
-            {projectInfo.map((item) => <ProjectItem props={item}/>)}
-            </Row>
-        </Container>
-    </div>
+            <SectionHeader props={{title:'PROJECTS', color: '#30838D'}} />
+            <Container>
+                <Row>
+                {projectInfo.map((item) => <ProjectItem props={item}/>)}
+                </Row>
+            </Container>
+        </div>
     );
 }
 

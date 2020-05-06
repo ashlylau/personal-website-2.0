@@ -12,8 +12,8 @@ nav a:hover {
 
 .hero {
     margin: auto;
-    margin-top: 10rem;
-    margin-bottom: 10rem;
+    margin-top: 15rem;
+    margin-bottom: 15rem;
     width: 50%;
     min-width: 350px;
 }
@@ -35,6 +35,11 @@ nav a:hover {
 .my-h2 {
     font-family: 'Libre Baskerville', serif;
     font-size: 14px;
+}
+
+.my-h3 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 22px;
 }
 
 .my-body {

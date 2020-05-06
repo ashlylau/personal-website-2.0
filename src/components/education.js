@@ -4,6 +4,7 @@ import style from "../styles/education.module.css"
 
 import icl from "../images/logos/iclcrest.png"
 import ri from "../images/logos/ri.png"
+import SectionHeader from "./section-header"
 
 
 const educationInfo = [
@@ -24,13 +25,13 @@ const educationInfo = [
 export default function EducationSection() {
     return (
         <div>
-        <h1 className='my-h1' style={{color: '#215A75', marginTop: `2rem`}}>EDUCATION</h1>
-        <Container>
-            <Row>
-            {educationInfo.map((item) => <EducationItem props={item}/>)}
-            </Row>
-        </Container>
-    </div>
+            <SectionHeader props={{title:'EDUCATION', color: '#215A75'}} />
+            <Container>
+                <Row>
+                {educationInfo.map((item) => <EducationItem props={item}/>)}
+                </Row>
+            </Container>
+        </div>
     );
 }
 

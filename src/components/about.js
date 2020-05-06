@@ -1,10 +1,13 @@
 import React from "react"
 import {Row, Col, Container } from 'react-bootstrap'
 import style from "../styles/about.module.css"
+import SectionHeader from "./section-header"
+
 
 import gymnastics from "../images/about/ashly-getty.jpg"
 import movies from "../images/about/movies.jpg"
 import doodles from "../images/about/doodles.jpg"
+
 
 
 const aboutInfo = [
@@ -16,7 +19,7 @@ const aboutInfo = [
     {
         image: movies,
         title: 'Movies',
-        desc: 'I watch too many movies',
+        desc: 'A form of escapism',
     },
     {
         image: doodles,
@@ -27,8 +30,8 @@ const aboutInfo = [
 
 export default function AboutSection() {
     return (
-        <div>
-        <h1 className='my-h1' style={{color: '#30838D', marginTop: `2rem`}}>PROJECTS</h1>
+    <div>
+        <SectionHeader props={{title:'ABOUT', color: '#3598C1'}} />
         <Container>
             <Row>
             {aboutInfo.map((item) => <AboutItem props={item}/>)}
@@ -39,7 +42,7 @@ export default function AboutSection() {
 }
 
 const AboutItem = ({props}) => (
-    <Col sm={4}>
+    <Col sm={4} >
         <img className={style.about}
         src={props.image}
         alt={props.title}/>

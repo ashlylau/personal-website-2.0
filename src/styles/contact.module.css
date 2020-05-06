@@ -1,0 +1,25 @@
+.mediaContainer {
+    margin: auto;
+    width: 60%;
+    min-width: 300px;
+    max-width: max-content;
+    align-content: center;
+}
+
+.container {
+    margin-top: 1rem;
+}
+
+.container p {
+    margin-bottom: 0px;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 4px;
+    margin-right: 1rem;
+}

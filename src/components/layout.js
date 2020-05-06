@@ -31,10 +31,10 @@ const Layout = ({ children }) => {
         style={{
           margin: `0 auto`,
           maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
+          padding: `0 1.6rem 1.45rem`,
         }}
       >
-        <main style={{margin: `3rem auto`, marginTop: `5rem`, maxWidth: 1000}}>{children}</main>
+        <main style={{margin: `4rem auto`, marginTop: `5rem`, maxWidth: 1000}}>{children}</main>
         <footer className='my-body' style={{textAlign: 'center'}}>
           © Ashly Lau {new Date().getFullYear()}
         </footer>
