@@ -6,6 +6,7 @@ import HeroComponent from "../components/hero"
 import ExperienceSection from "../components/experience"
 import ProjectsSection from "../components/projects"
 import EducationSection from "../components/education"
+import AboutSection from "../components/about"
 
 const IndexPage = () => (
   <Layout>
@@ -19,6 +20,7 @@ const IndexPage = () => (
     <ExperienceSection/>
     <ProjectsSection />
     <EducationSection />
+    <AboutSection />
   </Layout>
 )
 
