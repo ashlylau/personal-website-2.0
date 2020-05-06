@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Img from "gatsby-image"
+import style from "../styles/markdown.module.css"
 
 export default function Template({ data }) {
   const { markdownRemark } = data // data.markdownRemark holds our post data
@@ -12,14 +13,18 @@ export default function Template({ data }) {
   return (
     <Layout>
     <SEO title="cinect" />
-    <div className="blog-post-container">
+    <div className={style.container}>
         <div className="blog-post">
             <p className='my-h1'>{frontmatter.title}</p>
             <Img fluid={featuredImgFluid}/>
+
+            <div className={style.subtitle}>
             <p className='my-h2'>{frontmatter.desc}</p>
-            <p className='my-tag'>{frontmatter.additional}</p>
+            <p className='my-body'>{frontmatter.additional}</p>
+            </div>
+
             <div
-            className="blog-post-content"
+            className={style.content} style={{maxWidth: `600px`, margin: 'auto'}}
             dangerouslySetInnerHTML={{ __html: html }}
             />
         </div>
