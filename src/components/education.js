@@ -39,7 +39,7 @@ export default function EducationSection() {
 }
 
 const EducationItem = ({props}) => (
-    <Col sm={6}>
+    <Col md={6}>
         <Link className='my-link' to={props.path}>
             <Media style={{marginLeft: `3rem`, marginRight: `3rem`}}>
                 <div className={style.imageContainer}><img className={style.logo}
