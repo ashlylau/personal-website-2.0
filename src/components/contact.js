@@ -4,7 +4,6 @@ import style from "../styles/contact.module.css"
 import SectionHeader from "./section-header"
 import resume from "../components/AshlyResume.pdf"
 
-
 import me from "../images/about/me.jpg"
 
 export default function ContactSection() {
