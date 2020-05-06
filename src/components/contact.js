@@ -2,6 +2,7 @@ import React from "react"
 import { Container, Media } from 'react-bootstrap'
 import style from "../styles/contact.module.css"
 import SectionHeader from "./section-header"
+import resume from "../components/AshlyResume.pdf"
 
 
 import me from "../images/about/me.jpg"
@@ -20,7 +21,7 @@ export default function ContactSection() {
                         <p className='my-h2'><a className='my-link' href='mailto: ashlylau@gmail.com'>EMAIL</a></p>
                         <p className='my-h2'><a className='my-link' href='https://www.linkedin.com/in/ashly-lau/'>LINKEDIN</a></p>
                         <p className='my-h2'><a className='my-link' href='https://github.com/ashlylau'>GITHUB</a></p>
-                        <p className='my-h2'><a className='my-link' href="/components/AshlyResume.pdf" download="AshlyLauResume.pdf">RESUME</a></p>
+                        <p className='my-h2'><a className='my-link' href={resume} download="AshlyLauResume.pdf">RESUME</a></p>
                     </Media.Body>
                 </Media>
             </Container>
