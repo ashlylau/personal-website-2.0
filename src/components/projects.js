@@ -15,7 +15,7 @@ const projectInfo = [
         image: cinect,
         title: 'Cinect',
         path: '/projects/cinect',
-        desc: 'React-native mobile app to help you choose movies with your friends',
+        desc: 'Mobile app to help you choose movies with your friends',
     },
     {
         image: charje,

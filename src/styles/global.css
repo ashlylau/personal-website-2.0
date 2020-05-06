@@ -1,6 +1,7 @@
 nav a {
     color: #65CAE2;
     font-family: 'Libre Baskerville', serif;
+    font-size: 16px;
     transition: 100ms;
 }
 
@@ -21,7 +22,7 @@ nav a:hover {
 
 .hero p {
     font-family: 'Libre Baskerville', serif;
-    font-size: 1rem;
+    font-size: 18px;
 }
 
 .hero p span {
@@ -35,7 +36,7 @@ nav a:hover {
 
 .my-h2 {
     font-family: 'Libre Baskerville', serif;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .my-h3 {
@@ -45,12 +46,12 @@ nav a:hover {
 
 .my-body {
     font-family: 'Lato';
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .my-tag {
     font-family: 'Lato';
-    font-size: 9px;
+    font-size: 10px;
 }
 
 .my-link {
