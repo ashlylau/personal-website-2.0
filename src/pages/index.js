@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -17,6 +18,8 @@ const IndexPage = () => (
       <p>Currently an incoming SWE intern at Google.</p>
       <HeroComponent/>
     </div>
+
+    <Link to="/projects/stitch-call/">Go to my first Markdown blog post</Link>
 
     <ExperienceSection/>
     <ProjectsSection />
