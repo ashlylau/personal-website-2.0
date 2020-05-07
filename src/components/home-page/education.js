@@ -30,7 +30,7 @@ export default function EducationSection() {
     return (
         <div>
             <SectionHeader props={{title:'EDUCATION', color: '#215A75'}} />
-            <Container>
+            <Container style={{margin: `auto 3rem`}}>
                 <Row>
                 {educationInfo.map((item) => <EducationItem props={item}/>)}
                 </Row>
@@ -42,7 +42,7 @@ export default function EducationSection() {
 const EducationItem = ({props}) => (
     <Col md={6}>
         <Link className='my-link' to={props.path}>
-            <Media style={{marginLeft: `3rem`, marginRight: `3rem`}}>
+            <Media className={style.mediaContainer}>
                 <div className={style.imageContainer}><img className={style.logo}
                 src={props.image}
                 alt={props.title}/></div>

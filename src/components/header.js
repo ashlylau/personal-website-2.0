@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const ListLink = props => (
-  <li style={{ display: `inline-block`, marginRight: `1rem`, marginBottom: 0}}>
+  <li style={{ display: `inline-block`, marginRight: `0.8rem`, marginBottom: 0}}>
     <Link to={props.to} className='navbar-link'>{props.children}</Link>
   </li>
 )

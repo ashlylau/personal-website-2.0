@@ -17,7 +17,7 @@ export default function ContactSection() {
                     src={me}
                     alt='hey im ashly'/>
                     <Media.Body className={style.container}>
-                        <p className='my-h3' style={{color: '#FFDA66'}}>Let's work together!</p>
+                        <h4 className={style.title} style={{color: '#FFDA66'}}>Let's work together!</h4>
                         <p className='my-h2'><a className='my-link' href='mailto: ashlylau@gmail.com'>EMAIL</a></p>
                         <p className='my-h2'><a className='my-link' href='https://www.linkedin.com/in/ashly-lau/'>LINKEDIN</a></p>
                         <p className='my-h2'><a className='my-link' href='https://github.com/ashlylau'>GITHUB</a></p>

@@ -1,3 +1,6 @@
+Deploying Gatsby site to GitHub pages from user site: `https://jarednielsen.com/deploy-gatsbyjs-github-pages-user/`
+
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">

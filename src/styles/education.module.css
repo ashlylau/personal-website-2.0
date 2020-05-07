@@ -8,6 +8,10 @@
     margin-bottom: 3px;
 }
 
+.mediaContainer {
+    margin: auto 3rem;
+}
+
 .imageContainer {
     margin-top: 1rem;
     overflow: hidden;
@@ -29,5 +33,11 @@
     .logo {
         width: 100px;
         height: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .mediaContainer {
+        margin: auto;
     }
 }

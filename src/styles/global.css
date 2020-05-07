@@ -12,12 +12,19 @@ nav a:hover {
     text-decoration: none;
 }
 
+@media screen and (max-width: 600px) {
+    nav a {
+        font-size: 12px;
+    }
+}
+
+
 .hero {
     margin: auto;
     margin-top: 15rem;
     margin-bottom: 15rem;
     width: 50%;
-    min-width: 350px;
+    min-width: 300px;
 }
 
 .hero p {
@@ -42,6 +49,11 @@ nav a:hover {
 .my-h3 {
     font-family: 'Libre Baskerville', serif;
     font-size: 22px;
+}
+
+.my-h4 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 12px;
 }
 
 .my-body {
@@ -74,4 +86,11 @@ nav a:hover {
 
 .embedVideo-container iframe {
     margin: auto;
+}
+
+
+@media screen and (max-width: 600px) {
+    .video_container {
+        display: none;
+    }
 }
