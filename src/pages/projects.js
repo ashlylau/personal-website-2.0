@@ -29,24 +29,6 @@ const projectInfo = [
       path: '/projects/stitch-call',
       desc: 'A non-conventional video call platform',
   },
-  {
-      image: cinect,
-      title: 'Cinect',
-      path: '/projects/cinect',
-      desc: 'Mobile app to help you choose movies with your friends',
-  },
-  {
-      image: charje,
-      title: 'CHARJE',
-      path: '/projects/charje',
-      desc: 'An agent-based prediction marketplace implemented on a blockchain',
-  },
-  {
-      image: stitchcall,
-      title: 'Stitch Call',
-      path: '/projects/stitch-call',
-      desc: 'A non-conventional video call platform',
-  }
 ]
 
 const Projects = () => (

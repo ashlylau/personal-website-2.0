@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Ashly Lau Portfolio`,
+    title: `Ashly Lau`,
     description: `Penultimate year computing student at Imperial College London. Currently an incoming SWE intern at Google.`,
     author: `ashlylau`,
   },

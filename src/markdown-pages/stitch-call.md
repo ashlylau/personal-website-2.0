@@ -16,3 +16,8 @@ Stitch Call uses real-time image segmentation to put video chat users together i
 `youtube: https://www.youtube.com/watch?v=wlyzsE8sHfA`
 
 View our code on GitHub [here](https://github.com/jasminequah/ichack20-gsd).
+
+
+
+![gaussian with small std dev](../images/projects/gaussian-with-small-std-dev.jpg)
+Our team - gaussian with small std dev
