@@ -12,7 +12,7 @@ export default function Template({ data }) {
   
   return (
     <Layout>
-    <SEO title={frontmatter.title} />
+    <SEO title={frontmatter.title} description={frontmatter.desc}/>
     <div className={style.container}>
         <div className="blog-post">
             <p className='my-h1'>{frontmatter.title}</p>
