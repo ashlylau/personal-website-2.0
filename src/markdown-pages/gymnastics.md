@@ -45,7 +45,7 @@ Team Final - 6th
 
 ![sea games](../images/about/seag.JPG)
 
-This was my first competition after my knee injury, and I was happy that I could help my team to a silver placing, as well as qualify to finals in the two events I competed in.
+This was my first competition after my knee injury, and I was happy to help my team to a silver placing, as well as qualify for finals in the two events I competed in.
 
 Team - Silver | Uneven Bars Final - 4th | Balance Beam Final - 8th
 
