@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-components-md-template-js","path":"/blog/my-first-post","result":{"data":{"markdownRemark":{"html":"<h4>content here</h4>\n<ul>\n<li>hello</li>\n<li>bye</li>\n</ul>","frontmatter":{"date":"May 04, 2019","path":"/blog/my-first-post","title":"My first blog post"}}},"pageContext":{}}}
