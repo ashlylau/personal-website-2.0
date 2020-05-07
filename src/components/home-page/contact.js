@@ -1,10 +1,11 @@
 import React from "react"
 import { Container, Media } from 'react-bootstrap'
-import style from "../styles/contact.module.css"
-import SectionHeader from "./section-header"
-import resume from "../components/AshlyResume.pdf"
 
-import me from "../images/about/me.jpg"
+import style from "../../styles/contact.module.css"
+import SectionHeader from "../section-header"
+
+import resume from "../AshlyResume.pdf"
+import me from "../../images/about/me.jpg"
 
 export default function ContactSection() {
     return (

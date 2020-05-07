@@ -1,12 +1,13 @@
 import React from "react"
 import {Row, Col, Container } from 'react-bootstrap'
-import style from "../styles/experience.module.css"
-import SectionHeader from "./section-header"
 import { Link } from "gatsby"
 
-import googleLogo from "../images/logos/googlelogo.png"
-import imperialLogo from "../images/logos/imperial.jpg"
-import hpLogo from "../images/logos/hplogo.png"
+import style from "../../styles/experience.module.css"
+import SectionHeader from "../section-header"
+
+import googleLogo from "../../images/logos/googlelogo.png"
+import imperialLogo from "../../images/logos/imperial.jpg"
+import hpLogo from "../../images/logos/hplogo.png"
 
 const experienceInfo = [
     {

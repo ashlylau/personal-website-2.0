@@ -1,11 +1,12 @@
 import React from "react"
 import {Row, Col, Container, Media } from 'react-bootstrap'
-import style from "../styles/education.module.css"
 import { Link } from "gatsby"
 
-import icl from "../images/logos/iclcrest.png"
-import ri from "../images/logos/ri.png"
-import SectionHeader from "./section-header"
+import style from "../../styles/education.module.css"
+import SectionHeader from "../section-header"
+
+import icl from "../../images/logos/iclcrest.png"
+import ri from "../../images/logos/ri.png"
 
 
 const educationInfo = [

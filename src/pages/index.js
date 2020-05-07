@@ -2,12 +2,12 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import HeroComponent from "../components/hero"
-import ExperienceSection from "../components/experience"
-import ProjectsSection from "../components/projects"
-import EducationSection from "../components/education"
-import AboutSection from "../components/about"
-import ContactSection from "../components/contact"
+import HeroComponent from "../components/home-page/hero"
+import ExperienceSection from "../components/home-page/experience"
+import ProjectsSection from "../components/home-page/projects"
+import EducationSection from "../components/home-page/education"
+import AboutSection from "../components/home-page/about"
+import ContactSection from "../components/home-page/contact"
 
 const IndexPage = () => (
   <Layout>
