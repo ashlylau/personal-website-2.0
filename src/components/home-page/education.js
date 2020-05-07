@@ -30,7 +30,7 @@ export default function EducationSection() {
     return (
         <div>
             <SectionHeader props={{title:'EDUCATION', color: '#215A75'}} />
-            <Container style={{margin: `auto 3rem`}}>
+            <Container>
                 <Row>
                 {educationInfo.map((item) => <EducationItem props={item}/>)}
                 </Row>

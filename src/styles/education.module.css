@@ -31,13 +31,12 @@
 
 @media screen and (max-width: 720px) {
     .logo {
-        width: 100px;
+        width: 80px;
         height: auto;
     }
-}
 
-@media screen and (max-width: 600px) {
     .mediaContainer {
         margin: auto;
+        margin-right: 1rem;
     }
 }
