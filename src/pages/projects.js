@@ -6,9 +6,11 @@ import SEO from "../components/seo"
 import SectionHeader from "../components/section-header"
 import ProjectItem from "../components/project-item"
 
-import cinect from "../images/projects/cinect.png"
+import cinect from "../images/projects/cinect-phone.jpg"
 import charje from "../images/projects/charje.png"
 import stitchcall from "../images/projects/stitch-call.png"
+import potato from "../images/projects/what-potato.jpg"
+import umbrella from "../images/projects/umbrella-bot.jpg"
 
 const projectInfo = [
   {
@@ -28,6 +30,18 @@ const projectInfo = [
       title: 'Stitch Call',
       path: '/projects/stitch-call',
       desc: 'A non-conventional video call platform',
+  },
+  {
+    image: potato,
+    title: 'What Potato',
+    path: '/projects/what-potato',
+    desc: 'A fun Instagram filter',
+  },
+  {
+    image: umbrella,
+    title: 'Umbrella Bot',
+    path: '/projects/umbrella-bot',
+    desc: 'I was too lazy to check the weather app',
   },
 ]
 

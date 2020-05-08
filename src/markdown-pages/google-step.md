@@ -14,6 +14,8 @@ Throughout the internship I worked with various stakeholders: a UX designer to b
 
 Other activities included: an intern yacht party(!!), building up ML knowledge by taking the [ML Crash Course](https://developers.google.com/machine-learning/crash-course/ml-intro), weekly book club sessions reading the [DeepLearningBook](https://www.deeplearningbook.org/), an intern trip to Langkawi, and lots of rock climbing sessions at the office climbing gym.
 
+Special thanks to Cristen and Aaron for being such amazing hosts and co-hosts, and for being so patient with my questions.
+
 ![Intern yacht party](../images/experience/google-intern-cruise.jpg)
 Intern yacht party :)
 

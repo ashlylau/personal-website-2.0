@@ -66,6 +66,7 @@ module.exports = {
         plugins: [
           "gatsby-remark-embed-video",
           "gatsby-remark-images",
+          `gatsby-remark-copy-linked-files`,
         {
           resolve: "gatsby-remark-embed-video",
           options: {
