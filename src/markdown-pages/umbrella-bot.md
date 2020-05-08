@@ -14,6 +14,8 @@ Try out the [bot](https://telegram.me/umbrella_test_bot) on Telegram!
 
 ![covid-updates and random facts](../images/projects/umbrella-bot-2.jpg)
 
-Built with [Telegram Bot API for NodeJS](https://github.com/yagop/node-telegram-bot-api), deployed on Heroku.
+Built with [Telegram Bot API for NodeJS](https://github.com/yagop/node-telegram-bot-api), deployed on Heroku. 
+
+APIs used: [Data.gov.sg](https://data.gov.sg/dataset/weather-forecast) weather dataset, [Covid-19 API](https://rapidapi.com/api-sports/api/covid-193), [Random Useless Facts](https://uselessfacts.jsph.pl/)
 
 View the code on GitHub [here](https://github.com/ashlylau/umbrella-bot).
