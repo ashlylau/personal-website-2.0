@@ -19,7 +19,7 @@ const aboutInfo = [
         image: movies,
         title: 'Movies',
         path: 'about/movies',
-        desc: 'Who doesn\'t like movies?',
+        desc: 'A form of escapism perhaps?',
     },
     {
         image: doodles,

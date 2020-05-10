@@ -16,12 +16,15 @@ I don't really know what I'm gonna write here, but here's a list of my current f
 - Cabaret (1972)
 - Princess Mononoke (1997)
 - Sorry We Missed You (2019)
+- Faces Places (2017)
+- Perks of Being a Wallflower (2012)
 
 **TV**
 - Killing Eve S3
 - Westworld S3
 - Fleabag S2
 
+Hmu on [Instagram](https://www.instagram.com/ashly.lau/) to discuss movies!
 
 I've also been taking an MIT Open Cousrseware module [The Film Experience](https://ocw.mit.edu/courses/literature/21l-011-the-film-experience-fall-2013/) and it's been an absolute joy.
 

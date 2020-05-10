@@ -21,7 +21,7 @@ const aboutInfo = [
         image: movies,
         title: 'Movies',
         path: 'about/movies',
-        desc: 'I\'m a bit of a film buff',
+        desc: 'A form of escapism perhaps?',
     },
     {
         image: doodles,

@@ -1,8 +1,14 @@
+nav {
+    margin-top: 1rem;
+}
+
 nav a {
     color: #65CAE2;
     font-family: 'Libre Baskerville', serif;
     font-size: 16px;
     transition: 100ms;
+    margin-right: 1rem;
+    margin-left: 0.5rem;
 }
 
 nav a:hover {
@@ -12,12 +18,18 @@ nav a:hover {
     text-decoration: none;
 }
 
-@media screen and (max-width: 600px) {
-    nav a {
-        font-size: 12px;
-    }
+button.navbar-toggler {
+    background:none;
+    border:none;
 }
 
+.navbar-nav {
+    flex: 1
+}
+
+.navbar-align-left {
+    flex: 6
+}
 
 .hero {
     margin: auto;
