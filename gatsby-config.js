@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Ashly Lau`,
-    description: `Penultimate year computing student at Imperial College London. Currently an incoming SWE intern at Google.`,
+    description: `Penultimate year computing student at Imperial College London. Currently a SWE intern at Google.`,
     author: `ashlylau`,
   },
   plugins: [

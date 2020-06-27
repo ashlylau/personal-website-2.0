@@ -1,4 +1,8 @@
-Deploying Gatsby site to GitHub pages from user site: `https://jarednielsen.com/deploy-gatsbyjs-github-pages-user/`
+Deploying Gatsby site to GitHub pages from user site: https://jarednielsen.com/deploy-gatsbyjs-github-pages-user/
+Devlop locally: `gatsby develop`
+To deploy changes: `npm run deploy`
+Push to git: `git push -u origin develop`
+
 
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
