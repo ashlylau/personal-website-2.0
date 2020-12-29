@@ -4,7 +4,7 @@ import { Container, Media } from 'react-bootstrap'
 import style from "../../styles/contact.module.css"
 import SectionHeader from "../section-header"
 
-import resume from "../AshlyResume.pdf"
+import resume from "../AshlyLauResume.pdf"
 import me from "../../images/about/me.jpg"
 
 export default function ContactSection() {

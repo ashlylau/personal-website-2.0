@@ -12,6 +12,13 @@ import hpLogo from "../../images/logos/hplogo.png"
 const experienceInfo = [
     {
         image: googleLogo,
+        title: 'SWE Intern',
+        path: 'google-swe',
+        company: 'Google',
+        date: 'MAY 2020 - SEP 2020'
+    },
+    {
+        image: googleLogo,
         title: 'STEP Intern',
         path: 'google-step',
         company: 'Google',
@@ -47,7 +54,7 @@ export default function ExperienceSection() {
 }
 
 const LogoItem = ({props}) => (
-    <Col sm={4}>
+    <Col md={3}>
         <Link className='my-link' to={props.path}>
             <div className={style.imageContainer}>
                 <img className={style.logo}
