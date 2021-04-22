@@ -9,6 +9,7 @@ import ProjectItem from "../components/project-item"
 import cinect from "../images/projects/cinect-phone.jpg"
 import charje from "../images/projects/charje.png"
 import stitchcall from "../images/projects/stitch-call.png"
+import kopi from "../images/projects/kopi-19.png"
 import potato from "../images/projects/what-potato.jpg"
 import umbrella from "../images/projects/umbrella-bot.jpg"
 
@@ -30,6 +31,12 @@ const projectInfo = [
       title: 'Stitch Call',
       path: '/projects/stitch-call',
       desc: 'A non-conventional video call platform',
+  },
+  {
+    image: kopi,
+    title: 'Kopi-19',
+    path: '/projects/kopi-19',
+    desc: 'An app to support small local businesses',
   },
   {
     image: potato,
