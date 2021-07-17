@@ -12,7 +12,7 @@ Small-scale businesses such as Singapore’s food hawkers are particularly vulne
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTH23wQI214UjwrpezEg0vElroWLaTcsOy46h8dYwyd9_NBR7vyLZSNhoGM3Zv19uU993JH03ASHRD7/embed?start=false&loop=false&delayms=3000" frameborder="0" width="600" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </figure>
 
-This project was entered into the [Global Grad Show 2020](https://globalgradshow.com/project/kopi-19/), and an MVP was rolled out in Singapore during its Circuit Breaker period in March 2020, gaining over a hundred organically driven entries.
+This project was entered into the [Global Grad Show 2020](https://globalgradshow.com/project/kopi-19/), and an MVP was rolled out in Singapore during its Circuit Breaker period in March 2020, gaining over a hundred organically driven entries. Created in collaboration with [Stacey Yip](https://www.staceyip.com/).
 
 We were also featured on [Channel News Asia](https://www.youtube.com/watch?v=I5nyiGsUvCs)!
 `youtube: https://www.youtube.com/watch?v=I5nyiGsUvCs`
