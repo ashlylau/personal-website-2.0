@@ -14,7 +14,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <div className='hero' >
       <p>Hey, I'm Ashly.</p>
-      <p>Currently a final year computing student at Imperial College London.</p>
+      <p>I just graduated from Imperial College London and am currently a SWE at Google.</p>
       <HeroComponent/>
     </div>
 

@@ -3,11 +3,6 @@ import PropTypes from "prop-types"
 import React from "react"
 import {Navbar, Nav} from "react-bootstrap"
 
-const ListLink = props => (
-  <li style={{ display: `inline-block`, marginRight: `0.4rem`, marginLeft: `0.4rem`, marginBottom: 0}}>
-    <Link to={props.to} className='navbar-link'>{props.children}</Link>
-  </li>
-)
 
 const Header = ({ siteTitle }) => (
   <header>
@@ -28,16 +23,6 @@ const Header = ({ siteTitle }) => (
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-      {/* <nav style={{paddingTop: `1rem`, top: 0, width: '100%', zIndex: 1}}>
-        <ul style={{ listStyle: `none`, float: `left` }}>
-          <ListLink to="/">HOME</ListLink>
-          <ListLink to="/projects/">PROJECTS</ListLink>
-        </ul>
-        <ul style={{ listStyle: `none`, float: `right`}}>
-          <ListLink to="/about/">ABOUT</ListLink>
-          <ListLink to="/contact/">CONTACT</ListLink>
-        </ul>
-      </nav> */}
     </div>
   </header>
 )

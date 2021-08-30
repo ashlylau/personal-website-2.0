@@ -11,6 +11,7 @@ import charje from "../images/projects/charje.png"
 import stitchcall from "../images/projects/stitch-call.png"
 import kopi from "../images/projects/kopi-19.png"
 import potato from "../images/projects/what-potato.jpg"
+import tpdp from "../images/projects/tpdp.png"
 import umbrella from "../images/projects/umbrella-bot.jpg"
 
 const projectInfo = [
@@ -43,6 +44,12 @@ const projectInfo = [
     title: 'What Potato',
     path: '/projects/what-potato',
     desc: 'A fun Instagram filter',
+  },
+  {
+    image: tpdp,
+    title: 'TPDP 2021',
+    path: '/projects/privacy-ml',
+    desc: 'Statistical Guarantees of Machine Learning Preprocessing Techniques',
   },
   {
     image: umbrella,

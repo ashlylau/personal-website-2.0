@@ -33,7 +33,7 @@ const projectInfo = [
 export default function ProjectsSection() {
     return (
         <div>
-            <SectionHeader props={{title:'PROJECTS', color: '#30838D'}} />
+            <SectionHeader props={{title:'PROJECTS', color: '#30838D', url: '/projects'}} />
             <Container>
                 <Row>
                 {projectInfo.map((item) => <ProjectItem props={item}/>)}

@@ -2,11 +2,11 @@
 path: "/imperial"
 image: ../images/education/imperial.jpg
 title: "Imperial College London"
-desc: "Computing (Artificial Intelligence) MEng"
+desc: "Computing (Artificial Intelligence) MEng - First Class Honours"
 additional: "2019 - 2021"
 ---
 
-**First Year** -- Overall Grade: A
+**First Year**
 
 Modules: Programming (Haskell, Java, C), Databases, Hardware, Mathematical Methods, Graphs and Algorithms, Architecture, Logic, Discrete Structures, Reasoning about Programs, Entrepreneurship
 
@@ -16,7 +16,7 @@ Projects:
 
 ---
 
-**Second Year** -- Overall Grade: A
+**Second Year**
 
 Modules: Programming (C++, Prolog), Operating Systems, Algorithms 2, Compilers, Networks, Software Engineering Design, Intro to Model-Based AI, Probability & Statistics, Models of Computation, Spanish
 
@@ -33,7 +33,17 @@ Modules: Performance Engineering, Robotics, Type Systems for Programming Languag
 
 Projects/Activities:
 - [**Software Engineering Group Project**](/projects/charje) - Crowd-sourcing agent-based machine learning algorithms using prediction marketplaces implemented on a blockchain.
-- [**Undergraduate Teaching Assistant**](/imperial-ta) - Held weekly small group tutorials for first year students learning Haskell and Java
+- [**Undergraduate Teaching Assistant**](/imperial-ta) - Held weekly small group tutorials for first year students learning Haskell and Java.
+
+---
+
+**Fourth Year** 
+
+Modules: Computational Finance, Deep Learning, Mathematics for Machine Learning, Natural Language Processing, Privacy Engineering, Project Management, Reinforcement Learning
+
+Projects/Activities:
+- [**Computing Industrial Placement**](/google-swe) - 5 month industrial placement at Google Singapore, working in the Google Pay team.
+- [**MEng Computing Individual Project**](/privacy-ml) - Statistical Privacy Guarantees of Machine Learning Preprocessing Techniques (Accepted at [**TPDP 2021**](https://tpdp.journalprivacyconfidentiality.org/2021/)).
 
 ---
 

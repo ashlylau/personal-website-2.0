@@ -32,7 +32,7 @@ const aboutInfo = [
 export default function AboutSection() {
     return (
     <div>
-        <SectionHeader props={{title:'ABOUT', color: '#3598C1'}} />
+        <SectionHeader props={{title:'ABOUT', color: '#3598C1', url: '/about'}} />
         <Container>
             <Row>
             {aboutInfo.map((item) => <AboutItem props={item}/>)}
