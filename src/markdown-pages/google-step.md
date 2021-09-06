@@ -21,3 +21,6 @@ Intern yacht party :)
 
 ![Intern team](../images/experience/google-interns.jpg)
 Our team's interns!
+
+
+Feel free to reach out to me via [LinkedIn](https://www.linkedin.com/in/ashly-lau/) or [Email](ashlylau@gmail.com), I'd be happy to share more about my experience! :)
