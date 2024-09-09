@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{w2l6:function(e,n,t){"use strict";t.r(n);var l=t("q1tI"),a=t.n(l);n.default=function(){return a.a.createElement("html",null,a.a.createElement("head",null,a.a.createElement("style",null,"p ","font-family: Georgia;")),a.a.createElement("center",null,a.a.createElement("p",{style:{fontFamily:"Georgia",fontSize:"72px"}},"brb currently pushing a boulder up a hill (I don't know why its taking so long...)")))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-cd49547e73223a97c335.js.map
