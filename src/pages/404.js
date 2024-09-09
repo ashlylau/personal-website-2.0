@@ -1,14 +1,18 @@
 import React from "react"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-
 const NotFoundPage = () => (
-  <Layout>
-    <SEO title="404: Not found" />
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-  </Layout>
+<html>
+  <head>
+<style>
+p {"font-family: Georgia;"}
+</style>
+</head>
+    <center>
+    {/* <img src="../images/sisyphus.png" alt="sisyphus"/> */}
+    <p style={{fontFamily: 'Georgia', fontSize: '72px'}}>brb currently pushing a boulder up a hill (I don't know why its taking so long...)</p>
+    </center>
+</html>
 )
+
 
 export default NotFoundPage
