@@ -1,0 +1,99 @@
+{
+  "main": {
+    "id": "e57d7b2be962a839",
+    "type": "split",
+    "children": [
+      {
+        "id": "f44da586b6646e2b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "charje.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d2007403d18bf37b",
+    "type": "split",
+    "children": [
+      {
+        "id": "b459032b8517e17f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "66016a41fa91747a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "be1a7893f8defb3f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "198c958900e1b7e3",
+    "type": "split",
+    "children": [
+      {
+        "id": "5414bc50b10326b0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "07069042e68d39a7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "charje.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "f44da586b6646e2b",
+  "lastOpenFiles": [
+    "charje.md",
+    "umbrella-bot.md",
+    "movies.md",
+    "imperial.md",
+    "google-swe.md",
+    "doodles.md"
+  ]
+}
